@@ -1,0 +1,60 @@
+/* FLEX 
+
+Flexbox is a one-dimensional layout system that allows you to arrange elements in a row or column. 
+The main axis is the direction in which the flex items are arranged. 
+The cross axis is perpendicular to the main axis.
+
+*/
+
+/* 
+
+The display: flex property on the container establishes it as a flex container. 
+The justify-content: space-between property aligns the flex items along the main axis 
+(horizontal axis) with equal space between them. 
+
+*/
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/*
+The flex: 1 property on the items allows them to grow and occupy equal available space. 
+The background color and padding are just for visual styling.
+*/
+
+.item-flex {
+  flex: 1;
+  background-color: aqua;
+  padding: 10px;
+}
+
+/* GRID 
+
+Grid is a two-dimensional layout system that allows you to arrange elements in rows and columns. 
+You can create grids with any number of rows and columns, and you can specify the size and position
+ of each item in the grid.
+*/
+
+/* 
+The display: grid property on the container establishes it as a grid container. 
+The grid-template-columns: 1fr 1fr 1fr property creates three equally sized columns within the grid. 
+The grid-gap: 10px property sets a 10px gap between grid items. The background color and padding are applied to the items for styling.
+*/
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+/* 
+The background color and padding are applied to the items for styling.
+*/
+
+.item-grid {
+  background-color: blueviolet;
+  padding: 10px;
+}

@@ -1,5 +1,3 @@
-console.log("test");
-
 // 1. Create a new "XMLHttpRequest" object
 // This line creates a new instance of the "XMLHttpRequest" object wich will be used to send the API request and handle the response
 var xhr = new XMLHttpRequest();
@@ -52,6 +50,6 @@ xhr.onerror = function () {
 /*
     The "send()" method is called on the "XMLHttpRequest" object to send the API request.
     This initiates the request and the response will be handled by the "onload" callback function.
-    
+
 */
 xhr.send();
